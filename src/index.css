@@ -53,12 +53,16 @@ button {
   background-color: #f9f9f9;
   display: block;
   width: 100%;
+  
 }
 button:hover {
   background: #f3f3f3;
 }
 button:active {
   border-color: #646cff;
+}
+button:disabled{
+  cursor: not-allowed;
 }
 label {
   display: block;
