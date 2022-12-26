@@ -44,6 +44,7 @@ export default function LoginForm() {
 
     } catch (err) {
       setError({ message: err.message })
+    }finally{
       setIsLogin(false)
     }
   }
